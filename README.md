@@ -146,7 +146,11 @@ print(importance)
 
 * Positive coefficient → increases survival probability.
 * Negative coefficient → decreases survival probability.
-* Example: `Sex` (female = 1) has the strongest positive effect.
+
+* Sex is by far the most important feature — no surprise, survival was much higher among females.
+* Pclass (ticket class) also matters a lot.
+* Age has moderate importance.
+* The rest (SibSp, Parch, Embarked) are relatively weak.
 
 ---
 
