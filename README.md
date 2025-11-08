@@ -218,6 +218,13 @@ plt.title("Predicted Survival Distribution (Test Dataset)")
 plt.show()
 ```
 ![Predicted Survival Distribution](VISUALS/Predicted.PNG)
+
+* This pie chart shows the predicted survival outcomes from our model on the test dataset:
+
+* Did Not Survive (0): 63.2% → The model predicts that the majority of passengers in the test set would not survive.
+
+* Survived (1): 36.8% → A smaller portion of passengers are predicted to survive.
+
 ---
 
 ---
