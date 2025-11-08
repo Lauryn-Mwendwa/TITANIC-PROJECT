@@ -213,7 +213,7 @@ plt.pie(
 plt.title("Predicted Survival Distribution (Test Dataset)")
 plt.show()
 ```
-
+![Predicted Survival Distribution](VISUALS/Predicted.PNG)
 ---
 
 ###  Submission File
