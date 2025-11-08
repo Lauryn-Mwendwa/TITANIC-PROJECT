@@ -195,6 +195,8 @@ test_predictions = model.predict(X_test)
 test["Survived"] = test_predictions
 ```
 
+### **CONCLUSION**
+
 ---
 
 ### 🔟 Visualization — Predicted Survival
@@ -227,16 +229,6 @@ plt.show()
 
 ---
 
----
-
-##  Results Summary
-
-* **Model Used:** Logistic Regression
-* **Validation Accuracy:** ~81%
-* **Key Predictors:** Gender, Passenger Class, Age
-* **Less Important Predictors:** Embarked, Parch
-
----
 
 ## 🚀 Future Improvements
 
