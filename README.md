@@ -139,6 +139,8 @@ importance = pd.DataFrame({
 }).sort_values(by='Coefficient', ascending=False)
 
 print(importance)
+
+![Feature Influence on Survival](visuals/feature_influence_on_survival.png)  
 ```
 
 * Positive coefficient → increases survival probability.
