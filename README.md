@@ -245,6 +245,10 @@ print("Submission file saved successfully!")
 * Use **cross-validation** for more robust performance evaluation.
 
 ---
+![Predicted Survival Distribution](visuals/survival_distribution.png)
+
+
+---
 
 ## 👩‍💻 Author
 
