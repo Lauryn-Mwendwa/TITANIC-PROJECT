@@ -140,7 +140,7 @@ importance = pd.DataFrame({
 
 print(importance)
 
-![Feature Influence on Survival](visuals/feature_influence_on_survival.png)
+![Feature Influence on Survival](VISUALS/Feature Influence on Survival.PNG.png)
  
 ```
 
