@@ -216,20 +216,6 @@ plt.show()
 ![Predicted Survival Distribution](VISUALS/Predicted.PNG)
 ---
 
-###  Submission File
-
-Create CSV for Kaggle submission:
-
-```python
-submission = pd.DataFrame({
-    "PassengerId": pd.read_csv("data/test.csv")["PassengerId"],
-    "Survived": test_predictions
-})
-
-submission.to_csv("submission/submission.csv", index=False)
-print("Submission file saved successfully!")
-```
-
 ---
 
 ##  Results Summary
@@ -248,7 +234,6 @@ print("Submission file saved successfully!")
 * Use **cross-validation** for more robust performance evaluation.
 
 ---
-![Predicted Survival Distribution](visuals/survival_distribution.png)
 
 
 ---
